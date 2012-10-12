@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+      <article>
+        <aside>
+          <ul>
+            <li class="company"><a href="{{ page.companyurl }}">{{ page.company }}</a></li>
+            <li class="date-taken">{{ page.dateposted }}</li>
+            <li class="category">{{ post.category-fullname }}</li>
+          </ul>
+        </aside>
+        <h2>{{ page.title }}</h2>
+        <div class="text-version">
+          <p class="subject"><em>Subject</em>: {{ page.subject }}</p>
+          <div class="content">{{ content }}</div>
+        </div> <!-- .text-version -->
+        <div class="screenshot">
+          <img src="{{ page.image }}" alt="Screenshot of {{ page.company }}">
+        </div> <!-- .screenshot -->
+      </article>

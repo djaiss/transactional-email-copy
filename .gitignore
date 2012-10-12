@@ -1,0 +1,16 @@
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+.vagrant
+
+# Excluding Rakefile as it contains sensitive information #
+###########################################################
+Rakefile
+
+# Excluding the _site folder #
+##############################
+_site/
