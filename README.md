@@ -35,6 +35,7 @@ As of October 12, 2012, here are the following acceptable categories:
 * account-confirmation (Account confirmation)
 * cancellation (Cancellation)
 * welcome-email (Welcome email)
+* end-trial-email (End trial email)
 
 ### Images
 
