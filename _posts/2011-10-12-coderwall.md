@@ -7,6 +7,8 @@ company: Coderwall
 category: welcome-email
 category-fullname: Welcome email
 dateposted: 2012-10-12
+author: Regis Freyd
+author-url: http://djaiss.github.com
 subject: Your coderwall welcome package
 ---
 
