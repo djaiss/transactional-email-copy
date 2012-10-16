@@ -43,6 +43,12 @@ As of October 12, 2012, here are the following acceptable categories:
 
 Images are placed in the `img/screenshots` folder, and have to be named with the following format `yyyy-mm-dd-COMPANY`. Please make sure images are in the PNG format and compressed with [Imageoptim](http://imageoptim.com/) or equivalent.
 
+## Automatic creation of new posts
+
+To facilitate the creation of new posts, there is a Rake method that takes in argument the name of the company and prefill a new post. It's pretty cool (it even takes your name from your Git configuration). Here is how the script would work with a company named Trello. Don't worry about casing.
+
+`rake new_post COMPANY=trello`
+
 ## Taking down posts
 
 Perhaps you don't want your brand to appear on that website. You have the right to ask me to remove it, of course (and I didn't ask for permissions in the first place). If you want me to remove one of the post, send me an email to transactionalemail AT fastmail DOT fm or send me a pull request, and I will proceed to the deletion immediately.
