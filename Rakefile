@@ -73,7 +73,7 @@ task :purge do
   cloudflare_api_key = IO.read(".cloudflare_api_key").gsub(/\s+/, "")
 
   puts "## Purging Cloudflare's cache"
-  system "curl https://www.cloudflare.com/api_json.html -d 'a=fpurge_ts' -d 'tkn=#{cloudflare_api_key}' -d 'email=cloudflarerfr@fastmail.fm' -d 'z=totalwireframe.com' -d 'v=1'"
+  system "curl https://www.cloudflare.com/api_json.html -d 'a=fpurge_ts' -d 'tkn=#{cloudflare_api_key}' -d 'email=cloudflarerfr@fastmail.fm' -d 'z=transactionalemailcopy.com' -d 'v=1'"
   puts "## Purging done"
 end
 
