@@ -32,13 +32,14 @@ subject: Confirm your account
 ---
 ```
 
-As of October 23, 2012, here are the following acceptable categories:
+As of October 30, 2012, here are the following acceptable categories:
 
 * account-confirmation (Account confirmation)
 * cancellation (Cancellation)
 * welcome-email (Welcome email)
 * end-trial-email (End trial email)
 * free-trial (Free trial email)
+* weekly-digest (Weekly digest)
 
 ### Images
 
