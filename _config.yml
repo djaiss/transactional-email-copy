@@ -14,7 +14,7 @@ lsi:         false
 pygments:    true
 markdown:    maruku
 permalink:   date
-paginate:    10
+paginate:    20
 exclude:     compiless, Rakefile, ['psd'], bootstrap.less, global.less, mixins.less, reset.less
 
 maruku:

@@ -113,7 +113,7 @@ article .screenshot {
 }
 article .screenshot img {
   padding: 15px;
-  max-width: 758px;
+  max-width: 698px;
 }
 article h2 {
   margin-bottom: 20px;
@@ -122,6 +122,12 @@ article h2 {
 article li {
   padding: 5px 0px 5px 25px;
   font-size: 14px;
+}
+article .content li {
+  font-size: 13px;
+  list-style-type: circle;
+  margin-left: 25px;
+  padding-left: 3px;
 }
 article .text-version {
   margin-left: 200px;
