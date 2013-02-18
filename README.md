@@ -40,6 +40,7 @@ As of October 30, 2012, here are the following acceptable categories:
 * end-trial-email (End trial email)
 * free-trial (Free trial email)
 * weekly-digest (Weekly digest)
+* password-confirmation (Password confirmation)
 
 ### Images
 
